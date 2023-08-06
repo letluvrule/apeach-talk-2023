@@ -1,0 +1,98 @@
+.setting-screen-header {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.setting-screen-header img {
+  flex: 1;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: var(--padding-space);
+  margin-right: var(--padding-space);
+}
+
+.setting-screen-header div {
+  flex: 8;
+}
+
+.setting-screen-header div p {
+  margin-bottom: 3px;
+}
+
+.setting-screen-header div p:nth-child(2) {
+  color: #a0a0a0;
+}
+
+.setting-screen-header button {
+  flex: 3;
+  margin-right: var(--padding-space);
+  padding: 5px;
+  border-radius: 30px;
+  background-color: aliceblue;
+  border: 1px solid #a0a0a0;
+}
+
+.settings-component__column {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90vw;
+  border-radius: 20px;
+  padding: 15px 0px;
+  width: 90vw;
+  margin: 10px 30px;
+  position: relative;
+}
+
+.settings-component__column:hover {
+  background-color: thistle;
+  border-radius: 20px;
+}
+
+.settings-component__title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.settings-component__subtitle {
+  font-size: 1rem;
+}
+
+.settings-component__column h4 {
+  width: 50%;
+}
+.settings-component__column h6 {
+  width: 33%;
+  text-align: center;
+}
+
+.settings-component__column i {
+  width: 10%;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.new {
+  position: absolute;
+  left: 90px;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new span {
+  color: white;
+  font-size: 0.7rem;
+}

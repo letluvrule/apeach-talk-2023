@@ -1,0 +1,61 @@
+.shopping-category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shopping-category li:first-child {
+  border-bottom: 3px solid black;
+  padding: 10px 3px;
+}
+
+.shopping-category li:nth-child(3)::after {
+  color: black;
+  font-weight: 700;
+  background-color: yellow;
+  content: '사전판매';
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.shopping-ad {
+  display: flex;
+  overflow-x: scroll;
+  margin: 30px auto;
+}
+
+.shopping-ad::-webkit-scrollbar {
+  display: none;
+}
+
+.shopping-ad li {
+  height: 100%;
+}
+
+.shopping-ad img {
+  width: 30vh;
+  height: 40vh;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  width: 95%;
+  height: 10vh;
+  margin: 30px auto;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

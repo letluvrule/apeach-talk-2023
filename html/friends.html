@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>어피치톡 : 친구</title>
+    <link rel="stylesheet" href="../css/screens/style.css" />
+  </head>
+  <body>
+    <!-- 상태 바 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>21:00</span>
+        <i class="fas fa-location-arrow"></i>
+      </div>
+      <div class="status-bar__column">
+        <img src="../screenshots/baedal_icon.png" />
+        <span>배달완료</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <span>5G</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">친구</h1>
+      <div class="screen-header__icons">
+        <i class="fas fa-search fa-2x"></i>
+        <i class="fas fa-user-plus fa-2x"></i>
+        <i class="fas fa-music fa-2x"></i>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-2x"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <span>업데이트</span>
+      <span>조용한 채팅방 오픈</span>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component__column">
+        <img
+          src="../screenshots/apeach-profile.png"
+          class="user-component__avatar"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">어피치</h4>
+          <i class="fas fa-chevron-circle-right"></i>
+          <h6 class="user-component__subtitle">인생 좌우명 : 욜로</h6>
+        </div>
+        <div class="user-component__music">
+          <div class="user-component__music-bar"></div>
+          <div class="user-component__music-bar"></div>
+          <div class="user-component__music-bar"></div>
+          <div class="user-component__music-bar"></div>
+          <div class="user-component__music-bar"></div>
+        </div>
+      </div>
+
+      <div class="friends-group__name">
+        <span>업데이트한 친구 1</span>
+        <i class="fas fa-chevron-up"></i>
+      </div>
+
+      <div class="user-component__column">
+        <img
+          src="../screenshots/ryan-profile.png"
+          class="user-component__avatar"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">라이언</h4>
+          <h6 class="user-component__subtitle">어피치 포에버</h6>
+        </div>
+      </div>
+
+      <div id="ad-container">
+        <img id="ad" src="../screenshots/ad.jpg" />
+      </div>
+
+      <div class="friends-group__name">
+        <span>생일인 친구</span>
+        <i class="fas fa-chevron-up"></i>
+      </div>
+
+      <div class="user-component__column">
+        <img
+          src="../screenshots/birthday_cake.png"
+          class="user-component__avatar"
+        />
+        <div class="user-component__birthday-message">
+          <span class="birthday-notification">친구의 생일을 확인해보세요!</span>
+          <div>
+            <span class="birthday-number">4</span>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="friends-group__name">
+        <span>즐겨찾기</span>
+        <i class="fas fa-chevron-up"></i>
+      </div>
+
+      <div class="user-component__column">
+        <img
+          src="../screenshots/ryan-profile.png"
+          class="user-component__avatar"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">라이언</h4>
+          <h6 class="user-component__subtitle">어피치 포에버</h6>
+        </div>
+      </div>
+
+      <div class="friends-group__name">
+        <span>채널</span>
+        <i class="fas fa-chevron-up"></i>
+      </div>
+
+      <div class="user-component__column">
+        <img src="../screenshots/channel.png" class="user-component__avatar" />
+        <div class="user-component__birthday-message">
+          <span class="birthday-notification">채널</span>
+          <div>
+            <span class="birthday-number">20</span>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="channel-container">
+        <div class="channel-item">
+          <img class="user-component__avatar" src="../screenshots/nomad.png" />
+          <span>노마드 코더</span>
+          <span>니꼬&린</span>
+          <span>클론 코딩</span>
+          <div class="channel-add">채널 추가</div>
+        </div>
+        <div class="channel-item">
+          <img
+            class="user-component__avatar"
+            src="../screenshots/givenchy.jpg"
+          />
+          <span>지방시</span>
+          <span>FW23</span>
+          <span>여성 캠페인</span>
+          <div class="channel-add">채널 추가</div>
+        </div>
+        <div class="channel-item">
+          <img class="user-component__avatar" src="../screenshots/chanel.png" />
+          <span>CHANEL</span>
+          <span>2023</span>
+          <span>면세점 판매</span>
+          <div class="channel-add">채널 추가</div>
+        </div>
+        <div class="channel-item">
+          <img class="user-component__avatar" src="../screenshots/adidas.png" />
+          <span>adidas</span>
+          <span>FootBall</span>
+          <span>Women WC</span>
+          <div class="channel-add">채널 추가</div>
+        </div>
+        <div class="channel-item">
+          <img class="user-component__avatar" src="../screenshots/nike.png" />
+          <span>NIKE</span>
+          <span>Air Jordan</span>
+          <span>Just Do It</span>
+          <div class="channel-add">채널 추가</div>
+        </div>
+        <div class="channel-item">
+          <img class="user-component__avatar" src="../screenshots/apple.png" />
+          <span>Apple</span>
+          <span>iPhone 14</span>
+          <span>New Jeans</span>
+          <div class="channel-add">채널 추가</div>
+        </div>
+        <div class="channel-item">
+          <img
+            class="user-component__avatar"
+            src="../screenshots/new_jeans.jpg"
+          />
+          <span>NewJeans</span>
+          <span>Hype Boy</span>
+          <span>Cookie</span>
+          <div class="channel-add">채널 추가</div>
+        </div>
+      </div>
+      <p class="channel-ment">어피치톡에서 제공하는 채널 광고입니다.</p>
+
+      <div class="friends-group__name">
+        <span>내 친구</span>
+        <i class="fas fa-chevron-up"></i>
+      </div>
+
+      <div class="user-component__column">
+        <img
+          src="../screenshots/tube-profile.png"
+          class="user-component__avatar"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">튜브</h4>
+          <h6 class="user-component__subtitle">쉬고 싶다...</h6>
+        </div>
+      </div>
+
+      <div class="user-component__column">
+        <img
+          src="../screenshots/korn-profile.png"
+          class="user-component__avatar"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">콘</h4>
+          <h6 class="user-component__subtitle">열공 모드</h6>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">3</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="shop.html">
+            <i class="fas fa-shopping-bag fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification--more"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <img src="../screenshots/apeach-profile.png" />
+      <span>화면을 줄여주세요</span>
+    </div>
+
+    <div id="splash-screen">
+      <img src="../screenshots/apeach-profile.png" />
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+#friends-display-link {
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: var(--padding-space);
+  width: 98vw;
+}
+
+#friends-display-link span:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-color);
+  background-color: black;
+  border-radius: 35%;
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.friends-group__name {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--hot-pink);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+#ad {
+  width: 100%;
+  height: 15vh;
+  border-radius: 15px;
+}
+
+.channel-container {
+  padding: 0 30px;
+  display: flex;
+  text-align: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.channel-container::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+.channel-item {
+  width: 30vw;
+  border-radius: 10px;
+  margin-right: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.channel-item img {
+  margin: 10px auto;
+}
+
+.channel-item span:nth-of-type(1) {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.channel-add {
+  color: rgba(19, 2, 2, 1);
+  background-color: rgba(220, 220, 220, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 1.8rem;
+  border-radius: 10%;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: 700;
+}
+
+.channel-ment {
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}

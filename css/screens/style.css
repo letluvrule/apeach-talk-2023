@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import 'reset.css';
+@import 'variables.css';
+
+/* Components */
+@import '../components/status-bar.css';
+@import '../components/nav-bar.css';
+@import '../components/screen-header.css';
+@import '../components/user-component.css';
+@import '../components/user-component__music.css';
+@import '../components/no-mobile.css';
+
+/* screens */
+@import 'login.css';
+@import 'friends.css';
+@import 'find.css';
+@import 'more.css';
+@import 'settings.css';
+@import 'chat.css';
+@import 'shop.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  word-break: keep-all;
+  background-color: var(--pink);
+  color: #2f363e;
+  height: 300vh;
+}
